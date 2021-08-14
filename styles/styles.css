@@ -167,6 +167,7 @@ p, li {
 			box-sizing: border-box;
 			padding: 20px 0;
 			position: relative;
+			
 		}
 
 		.timeline li:nth-child(odd){
@@ -177,7 +178,7 @@ p, li {
 		.timeline li:nth-child(even){
 			float: right;
 			padding-left: 100px;
-			transform: translateY(50%);
+			transform: translateY(50%);			
 		}
 
 		.timeline li:nth-child(odd)::after{
@@ -234,6 +235,7 @@ p, li {
 		.timeline a:hover h2,
 		.timeline a:hover p{
 			color: #fff;
+			font-weight:bold;
 		}
 
 		.timeline h2{
@@ -244,7 +246,7 @@ p, li {
 		}
 
 		.timeline p{
-			color: #666;
+			color: rgb(0, 0, 0);
 			font-family: 'Noto Sans TC', sans-serif;
 			font-weight: 100;
 			line-height: 1.5;
@@ -380,6 +382,11 @@ p, li {
 	
 	.social-links b{
 		font-size: 20px;
+		align-items: center;
+	}
+
+	.social-links p{
+		font-size: 14px;
 		align-items: center;
 	}
 	
