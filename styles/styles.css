@@ -114,6 +114,7 @@ input{
 }
 
 .item:hover{
+	background-color: #6fa5f6;
 	box-shadow: 10px 10px 5px rgba(0,0,0,0.7);
 	border-style: groove;
 	border-color: black;
